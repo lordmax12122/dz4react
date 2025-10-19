@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/lordmax12122/dz4react/static/css/main.f855e6bc.css",
-    "main.js": "/lordmax12122/dz4react/static/js/main.0e2a0aac.js",
-    "static/js/453.1000822d.chunk.js": "/lordmax12122/dz4react/static/js/453.1000822d.chunk.js",
-    "index.html": "/lordmax12122/dz4react/index.html",
-    "main.f855e6bc.css.map": "/lordmax12122/dz4react/static/css/main.f855e6bc.css.map",
-    "main.0e2a0aac.js.map": "/lordmax12122/dz4react/static/js/main.0e2a0aac.js.map",
-    "453.1000822d.chunk.js.map": "/lordmax12122/dz4react/static/js/453.1000822d.chunk.js.map"
+    "main.css": "/dz4react/static/css/main.f855e6bc.css",
+    "main.js": "/dz4react/static/js/main.07f2e79b.js",
+    "static/js/453.1000822d.chunk.js": "/dz4react/static/js/453.1000822d.chunk.js",
+    "index.html": "/dz4react/index.html",
+    "main.f855e6bc.css.map": "/dz4react/static/css/main.f855e6bc.css.map",
+    "main.07f2e79b.js.map": "/dz4react/static/js/main.07f2e79b.js.map",
+    "453.1000822d.chunk.js.map": "/dz4react/static/js/453.1000822d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.0e2a0aac.js"
+    "static/js/main.07f2e79b.js"
   ]
 }
