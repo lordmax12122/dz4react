@@ -2,7 +2,7 @@
   "name": "dz4react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/lordmax12122/dz4react",
+  "homepage": "https://lordmax12122.github.io/dz4react/",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
