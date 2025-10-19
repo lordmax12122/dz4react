@@ -7,14 +7,7 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +21,108 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.statistics {
+  width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.stat-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.item {
+  flex: 1;
+  margin: 0 5px;
+  border-radius: 5px;
+  padding: 20px 0;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  font-weight: 500;
+}
+
+.percentage {
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.friend-list {
+  width: 1000px;
+  margin: 20px auto;
+  padding: 0;
+  list-style: none;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.status {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.status.online {
+  background-color: rgb(16, 241, 42);
+}
+
+.status.offline {
+  background-color: red;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  color: #333;
+}
+
+.list {
+  background-color: green;
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  color: black;
+  background-color: rgb(200, 168, 230);
 }
